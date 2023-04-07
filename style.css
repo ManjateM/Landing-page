@@ -1,0 +1,15 @@
+.section-one{
+    background-color: #1f2937;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #1f2937;
+}
+.header-links{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 10px;
+}
