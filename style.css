@@ -127,3 +127,9 @@ footer{
     text-align: center;
     padding: 50px;
 }
+.details .image{
+    height: 300px;
+    width: 500px;
+    object-fit:cover;
+    object-position: 0 100%;
+}
