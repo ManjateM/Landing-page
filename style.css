@@ -1,4 +1,4 @@
-.section-one{
+.section-one,footer{
     background-color: #1f2937;
     color: white;
 }
@@ -99,4 +99,31 @@ button{
     text-align: right;
     font-weight: bold;
     font-size: 30px;
+}
+
+.action{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 12px;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.inspo{
+    text-align: left;
+}
+
+.sign-up button{
+    background-color: #3882f6;
+    font-size: 20px;
+    border: 2px solid white;
+}
+footer{
+    text-align: center;
+    padding: 50px;
 }
