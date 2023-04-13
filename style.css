@@ -41,7 +41,7 @@
     padding: 10px;
 }
 .image .img{
-    max-width: 100px;
+    border: #f9faf8;
 }
 
 button{
@@ -50,4 +50,33 @@ button{
     padding: 10px;
     border: none;
     border-radius: 12px;
+}
+
+/*Section two*/
+.section-two{
+    text-align: center;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.media-objects{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 20px;
+}
+
+.media-objects .img-content{
+    flex-wrap:wrap ;
+    flex-basis: 0;
+    text-align: center;
+}
+.media{
+    width: min-content;
+    align-items: center;
 }
