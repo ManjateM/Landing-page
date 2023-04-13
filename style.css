@@ -1,15 +1,53 @@
 .section-one{
     background-color: #1f2937;
+    color: white;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    color: white;
-    background-color: #1f2937;
+    
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
 }
 .header-links{
     display: flex;
     text-decoration: none;
     list-style-type: none;
     gap: 10px;
+    
+}
+.header-links,.secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+.details .content{
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.image .img{
+    max-width: 100px;
+}
+
+button{
+    color:#e5e7eb; 
+    background-color: dodgerblue;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
 }
